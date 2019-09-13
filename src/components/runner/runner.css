@@ -1,4 +1,5 @@
 #runnerContainer {
+    position: relative;
     padding: 20px;
     width: 100%;
     height: 100%;
@@ -6,4 +7,23 @@
 }
 .runnerItem {
     width: 100%;
+}
+.dragIcon {
+    margin-right: 30px;
+}
+.disableDrag {
+    color: #D9E2EC;
+}
+#toggleServicesButton {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.serviceItemDetails {
+    justify-content: space-between;
+    align-items: center;
+}
+#runnerButtons {
+    display: flex;
+    justify-content: space-evenly;
 }

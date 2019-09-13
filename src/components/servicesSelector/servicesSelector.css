@@ -1,6 +1,15 @@
 #servicesSelectorContainer {
+    position: relative;
     padding: 20px;
     width: 100%;
-    height: 100%;
     text-align: center;
+}
+#servicesListContainer {
+    max-height: 400px;
+    overflow: auto;
+}
+#closeServicesButton {
+    position: absolute;
+    top: 5px;
+    right: 10px;
 }
